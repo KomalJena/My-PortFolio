@@ -6,7 +6,7 @@ export default class Sidebar extends Component {
       <div>
         <div>
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
-          {/* <aside id="colorlib-aside" className="border js-fullheight"> */}
+          <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
               <div className="author-img" style={{backgroundImage: ''}} />
               <h1 id="colorlib-logo"><a href="index.html">Komal Jena</a></h1>
@@ -25,11 +25,11 @@ export default class Sidebar extends Component {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-                <li><a href="https://www.facebook.com/Komal.barochia" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
-                <li><a href="https://twitter.com/ddJena" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
-                <li><a href="https://www.instagram.com/ddJena/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
-                <li><a href="https://www.linkedin.com/in/dJena/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
-                <li><a href="https://github.com/dJena" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
+                <li><a href="https://www.facebook.com/Komal.Jena" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
+                <li><a href="https://twitter.com/komaljena" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
+                <li><a href="https://www.instagram.com/komal.jena_/?hl=en" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
+                <li><a href="https://www.linkedin.com/in/komal-j-49383888/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
+                <li><a href="https://github.com/KomalJena" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
                 {/* <li><a href="https://medium.com/@Komal.barochia34788" target="_blank" rel="noopener noreferrer"><i className="icon-blogger2"></i></a></li> */}
               </ul>
             </nav>
@@ -42,7 +42,7 @@ export default class Sidebar extends Component {
                 Something coming soon !!
               </small></p>
             </div> */}
-          {/* </aside> */}
+          </aside>
         </div>
       </div>
     )
